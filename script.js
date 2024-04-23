@@ -13,7 +13,7 @@ const maxNum = prompt("Inserisci un numero massimo");
 let number = Math.floor(Math.random() * maxNum) + 1;
 
 // Generating password
-const password = `${userName} ${userLastName} ${userColor} ${number}`;
+const password = `${userName}${userLastName}${userColor}${number}`;
 
 // Printing password in document
 currentText = `${currentText} ${password}`;
