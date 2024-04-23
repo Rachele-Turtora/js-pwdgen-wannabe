@@ -10,3 +10,5 @@ let password = `${userName} ${userLastName} ${userColor} 21`
 // Printing password in document
 document.getElementById("password").innerHTML = password
 
+// Printing password in console
+console.log(password)
